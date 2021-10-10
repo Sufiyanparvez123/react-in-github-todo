@@ -52,6 +52,7 @@ export default function Todo() {
        }
     return (
         <div>
+            <h2>My todo App</h2>
             <form onSubmit={Submit}>
                 <input type="text" onChange={(e) => setTodo(e.target.value)} value={todo} />
                 <button type="submit">Add Todo</button>
